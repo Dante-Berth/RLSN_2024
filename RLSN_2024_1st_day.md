@@ -2,7 +2,8 @@
 ## Introduction ( From Stochastic Networks to Reinforcement Learning)
 It is composed applied probability MCMC, stasticical learning, Operation research, MDPs, Optimisation, Complex networks , Queueing, Scheduking, Algorithms design.
 Stochastic networks are not stochastic neural networks. Stochastic networks can be queues, many operationnal problems and more.
-## Learning and Control in Countable State Spaces (presented by R. Srikant UIUC)
+# Day 1
+## Learning and Control in Countable State Spaces (presented by R. Srikant UIUC) 
 Stochastic Network such as queueing.
 Chess, go and other games can be large enven if it is finite-state spaces (limited) while it exists uncountable state space but structured problmes such as $$x_{k+1} = Ax_{k}+Bu_{k}+w_{k}$$ where A, B are learnt by a neural network for instance. It exists problems behind it such as countable state spaces ( limited structure positivity, easy stabilizability, how can we exploit it ?).\\
 
@@ -44,5 +45,16 @@ Uniform Lyapunov Stability
 
 ### Average reward ($\gamma = 1$)
 Seems difficult
+
+# Day 2
+## Finite-time High Probability Bounds for Polyak-Ruppert Averaged Iterates of <u>Linear</u> Stochastic Approximation
+
+$$f(\theta^{*}) = 0$$ but you do not have $f$ called oracle,$F(\theta;Z_{n})$ but $\mathbb{E}[F(\theta;Z_{n})] =  f(\theta)$
+$$\theata_{n+1} = \theta_{n} + \alpha_{n}F(\theta_{n};Z_{n})$$ called stochastic approximation
+I understood nothing
+
+# Day 3
+## Learning-Augmented Algorithms for MDPs
+
 
 
